@@ -15,8 +15,10 @@
 */
 
 //Code here
-
-
+var me = {
+  name:'Chris',
+  age:'35'
+  }
 
 ////////// PROBLEM 2 //////////
 
@@ -26,7 +28,14 @@
 */
 
 //Code here
-
+var favoriteThings = {
+  band:'Me First and the Gimme Gimmies',
+  food:'Pizza',
+  person:'Christy',
+  book:'Battlefield Earth',
+  movie:'Braveheart',
+  holiday:'Christmas'
+}
 
 
 /*
@@ -34,7 +43,8 @@
 */
 
 //Code here
-
+favoriteThings.car = 'Honda Civic';
+favoriteThings.brand = 'Adidas';
 
 
 /*
@@ -42,7 +52,8 @@
 */
 
 //Code here
-
+favoriteThings.food = 'Chicken Nuggets';
+favoriteThings.book = 'Harry Potter';
 
 
 ////////// PROBLEM 3 //////////
@@ -56,16 +67,17 @@
 */
 
 //Code here
-
-
-
+var backPack = {}
+var item = 'firstPocket'
+backPack[item] ='chapstick'
+backPack.color = 'blue'
 /*
   After you do the above, alert your entire backPack object.
 */
 
 //Code here
 
-
+alert(backPack)
 
 /*
 You probably noticed that it just alerted [object Object].
@@ -75,7 +87,7 @@ Instead, console.log your whole backPack object and then check out the console.
 
 //Code here
 
-
+console.log(backPack)
 
 ////////// PROBLEM 4 //////////
 
@@ -92,12 +104,13 @@ var user2 = {
 
 /* 
   Let's say I, the user, decided to change my name and email address to the following:
-  name -> 'Tyler S. McGinnis' and email -> 'tyler.mcginnis@devmounta.in'. 
+  name -> 'Tyler S. McGinnis' and email ->'tyler.mcginnis@devmounta.in'
   Make that change without modifying the original object code above.
 */
 
 //Code Here
-
+user2.name = 'Tyler S. McGinnis';
+user2.email = 'tyler.mcginnis@devmounta.in';
 
 
 
